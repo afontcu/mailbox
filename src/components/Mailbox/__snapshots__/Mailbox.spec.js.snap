@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mailbox.vue renders a snapshot: default 1`] = `
+<div class="Mailbox">
+  <h1 class="Mailbox__title">Mailbox</h1>
+  <div class="Mailbox__grid">
+    <aside class="MailboxMessageList">
+      <p class="MailboxMessageList__title">
+        3 unread
+        messages
+      </p>
+    </aside>
+    <main class="MailboxMessageContent">
+      <p class="MailboxMessageContent__no-message">
+        Select a message to display its content.
+      </p>
+    </main>
+  </div>
+</div>
+`;

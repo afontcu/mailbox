@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MailboxMessageList.vue renders a snapshot: default 1`] = `
+<aside class="MailboxMessageList">
+  <p class="MailboxMessageList__title">
+    3 unread
+    messages
+  </p>
+</aside>
+`;

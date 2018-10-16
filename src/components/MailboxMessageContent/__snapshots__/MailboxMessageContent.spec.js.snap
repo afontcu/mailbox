@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MailboxMessageContent.vue renders a snapshot: default 1`] = `
+<main class="MailboxMessageContent" time_sent="1456744407">
+  <div class="MailboxMessageContent__wrapper">
+    <h2>subject</h2>
+    <p class="MailboxMessageContent__message">lorem ipsum</p>
+    <div class="MailboxMessageContent__meta">
+      <p>sender</p>
+      <p></p>
+    </div>
+  </div>
+</main>
+`;

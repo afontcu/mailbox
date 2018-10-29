@@ -61,7 +61,7 @@ instance, navigate through the messages using the keyboard). However, there's al
 room for improvement regarding this topic.
 3. **Data Persistance**. Right now, reloading the application restores its state to default. There's no logic to keep tracking the state (read/unread) of our messages. This could be easily achieved using Session or Locale Storage (if no syncro with our backend was required).
 4. **Abstraction of common patterns**. This component/application is fairly simple, so there was no need to abstract out patterns such as the "card-like" UI. However, in a real (a.k.a more complex) application, such elements should be isolated. In a large application, I'd avocate for a design system to provide consistency among screens and elements.
-5. **CSS management**. Again, the simplicity of this application allowed me to "skip" CSS preprocessors. What is more, I didn't even need to use my own SCSS boilerplate ([NormandyCSS](https://github.com/calidae/normandy-css)). Several things could be improved in the curent implementation: for instance, font sizing could use some love, and responsiveness wasn't even considered...
+5. **CSS management**. Again, the simplicity of this application allowed me to "skip" CSS preprocessors. What is more, I didn't even need to use my own SCSS boilerplate ([NormandyCSS](https://github.com/calidae/normandy-css)). Several things could be improved in the current implementation: for instance, font sizing could use some love, and responsiveness wasn't even considered...
 6. **Backend API**. Obvs, backend management would require way more effort than just importing a plain JSON (with the help of webpack, of course).
 
 ---
